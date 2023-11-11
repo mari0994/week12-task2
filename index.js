@@ -27,7 +27,12 @@ const replacedText3 = result.replace(/клён/g, 'дуб');
 const index = text.indexOf('моря');
 
 //9
-const modifiedText = replacedText.replace('л','Л');
+
+//вариант1
+//const modifiedText = replacedText.replace('л','Л');
+
+//вариант2
+const modifiedText = replacedText[0].toUpperCase() + replacedText.slice(1);
 
 //10
 const showResult = () => {
