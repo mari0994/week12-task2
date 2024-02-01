@@ -12,7 +12,7 @@ const result = text.replace(/;/g, ';\n');
 const substring = result.replace(/\s/g, '');
 
 //4
-const newText = result.substring(28,50);
+const newText = result.substring(27,50);
 
 //5
 const replacedText = newText.replace('клён', 'дубе');
